@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>UserSignupServlet</servlet-name>
+        <servlet-class>UserSignupServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserSignupServlet</servlet-name>
+        <url-pattern>/signup</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserSigninServlet</servlet-name>
+        <servlet-class>UserSigninServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>UserSigninServlet</servlet-name>
+        <url-pattern>/signin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>JobApplyServlet</servlet-name>
+        <servlet-class>JobApplicationServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>JobApplyServlet</servlet-name>
+        <url-pattern>/form</url-pattern>
+    </servlet-mapping>
+
+</web-app>

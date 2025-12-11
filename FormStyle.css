@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(255, 255, 255);
+
+    f-align: center;
+}
+h2{
+    text-align: center;
+}
+.form{
+   
+   padding: 10px 20px 30px;
+    width: 400px;
+   
+   font-size: 19px;
+    margin: 250px auto;
+     margin: 10px 550px 20px;
+    border-radius: 30px;
+    
+}
+.input input{
+    width: 600px;
+    height: 35px;
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 0.5px 0.5px;
+    box-sizing:content-box;
+     margin: 10px 10px 20px;
+}
+
+h5{
+    color: rgb(241, 19, 19);
+}
+
+button{
+    font-size: 19px;
+    margin: 10px;
+    padding: 10px 15px ;
+    border-radius: 10px;
+    background-color: beige;
+}
+.form .tl{
+    display: block;
+}
+.dropDown select{
+    width: 600px;
+    height: 35px;
+   margin: 10px 10px 20px;
+    display: block;
+}
+.radio input{
+    transform:scale(1.6);
+    margin: 20px;
+}

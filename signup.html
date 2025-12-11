@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sytle.css" />
+</head>
+<body>
+
+<div class="container">
+    <form class="login-box" method="post" action="signup" >
+        <h2>Sign Up</h2>
+        <div class="input-box">
+            <input type="text"  name="fullName" required/>
+            <label>FullName</label>
+        </div>
+        <div class="input-box">
+            <input type="email"  name="email" required/>
+            <label>Email</label>
+        </div>
+
+        <div class="input-box">
+            <input type="password" id="pwd" name="password" required />
+            <label>Password</label>
+        </div>
+        <div class="input-box">
+            <input type="number"  name="mobNum"/>
+            <label>Mobile Number</label>
+        </div>
+        <div>
+            <button class="btn"  >Create a Account</button>
+        </div>
+
+        <p class="signup-link">Do have an account?
+            <a href="signin.html">Sign In</a>
+        </p>
+    </form>
+</div>
+</body>
+</html>

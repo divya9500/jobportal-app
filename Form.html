@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="FormStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h2>Zoho Corporation | Full time</h2>
+    <div class="form">
+
+        <form action="form"  method="post" enctype="multipart/form-data">
+            <div class="input">
+                <label class="tl" >First Name*</label>
+                <input type="text" name="firstName" id="firstName" required>
+
+
+            </div>
+
+              <div class="input">
+                <label class="tl" >Last Name*</label>
+                <input type="text" name="lastName" id="LastName" required>
+
+
+            </div>
+
+              <div class="input">
+                <label class="tl" >Email*</label>
+                <input type="email" name="email" id="email" required>
+
+
+            </div>
+
+              <div class="input">
+                <label class="tl" >Mobile Number*</label>
+                <input type="tel" name="mobNum" id="mobNum" required>
+
+
+            </div>
+
+            <div class="dropDown">
+                <label>Degree*</label>
+                <select name="degree" required>
+                    <option value="">None</option>
+                    <option value="BE-CSE">BE-CSE</option>
+                    <option value="BE-ECE">BE-ECE </option>
+                    <option value="BE-EEE">BE-EEE</option>
+                    <option value="BE-CIVIL">BE-CIVIL</option>
+                    <option value="BE-Mech">BE-Mech</option>
+                    <option value="B.Tech-IT">B.Tech-IT</option>
+
+                </select>
+
+             <div class="input">
+                <label class="tl" >Year of Graduation*</label>
+                <input type="number" name="year" id="yearOfGraduation" required>
+
+
+            </div>
+
+
+             <div class="radio">
+                <label class ="tl">Gender</label>
+                <input type="radio"  name="gender" id="male" value="male" required>
+                <label>Male</label>
+                <input type="radio"  name="gender" id="female" value="female" >
+                <label>Female</label>
+                <input type="radio"  name="gender" id="Not willing to disclose" value="Not willing to disclose" >
+                <label>Not willing to disclose</label>
+            </div>
+
+            <div class="dropDown">
+                <label>Experience In Year*</label>
+                <select name="noOfYear" required>
+                <option value="">None</option>
+                <option value="Fresher">Fresher</option>
+                <option value="0-1 Years">0-1 Years</option>
+                <option value="1-2 Years">1-2 Years</option>
+                <option value="2-3 Years">2-3 Years</option>
+                <option value="3-4 Years">3-4 Years</option>
+                <option value="4-5 Years">4-5 Years</option>
+                <option value="5+">5<sup>+</sup>  years</option>
+                <option value="7+">7<sup>+</sup>  years</option>
+
+                <option value="10+">10<sup>+</sup>  years</option>
+               <option value="12+">12<sup>+</sup>  years</option>
+
+                
+                </select>
+
+
+            </div>
+
+            
+             <div class="input">
+                <label class="tl" >Current Employer*</label>
+                <input type="text" name="curEmp" id="curEmp" required>
+
+
+            </div>
+
+             <div class="dropDown">
+                <label>Current CTC(in Lakhs Per Annum)*</label>
+                <select name="curCTC" required>
+                <option value="Not Applicable">Not Applicable</option>
+               
+                <option value="1-3">1-3</option>
+                <option value="3-5">3-5</option>
+                <option value="5-7">5-7</option>
+                <option value="7-9">7-9</option>
+                <option value="9-10">9-10</option>
+                <option value="10+">10<sup>+</sup>  </option>
+                <option value="12+">12<sup>+</sup>  </option>
+
+                
+                </select>
+
+
+            </div>
+
+             <div class="input">
+                <label class="tl" >Notice period</label>
+                <input type="text" name="noticePeriod" id="noticePeriod" >
+
+
+            </div>
+
+              <div class="dropDown">
+                <label class="'tl">Expected CTC(in Lakhs Per Annum)*</label>
+                <select name="expCTC" required>
+                <option value="">Not Applicable</option>
+               
+                <option value="">Open</option>
+                <option value="3-5">3-5</option>
+                <option value="5-7">5-7</option>
+                <option value="7-9">7-9</option>
+                <option value="9-10">9-10</option>
+                <option value="10+">10<sup>+</sup>  </option>
+                <option value="12+">12<sup>+</sup>  </option>
+
+                
+                </select>
+
+
+            </div>
+
+            <div class="checkBox">
+                <label class="tl">Skills*</label><br>
+                <label><input type="checkbox" name="skill" value="Java"> Java</label><br>
+                <label><input type="checkbox" name="skill" value="Python"> Python</label><br>
+                <label><input type="checkbox" name="skill" value="SQL"> SQL</label>
+
+            </div>
+
+            <div class="input">
+                <label class="tl" >Current Location*</label>
+                <input type="text" name="currLocation" id="currLocation" >
+
+
+            </div>
+               <div class="input">
+                <label class="tl" >Preferred Location*</label>
+                <input type="text" name="preLocation" id="preLocation" >
+
+
+            </div>
+            <hr>
+            <h5>Upload Your Resume</h5>
+            <div name="file">
+                <label class="'tl">Resume*</label><br>
+                <input type="file" name="file" id="file">
+
+            </div>
+            
+
+        <div class="btn">
+            <br>
+        <button type="submit">Submit</button>
+        </div>
+
+        </form>
+
+
+
+
+
+    </div>
+    
+</body>
+</html>
+
+
+
